@@ -1,0 +1,1 @@
+sudo docker run -d -p 80:80 -p 3306:3306 --name myXampp -v ~/my_web_pages:/var/www/html myxampp-arm64:latest
